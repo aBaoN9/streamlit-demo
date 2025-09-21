@@ -1,0 +1,43 @@
+timestamp,source,inputs,pred,proba,threshold,model
+2025-09-21T00:22:22,from_test_idx,"{""index"": 60}",1,0.999012517139856,0.5,LogisticRegression
+2025-09-21T00:22:30,random,"{""gender"": ""F"", ""ssc_b"": ""Central"", ""hsc_b"": ""Central"", ""hsc_s"": ""Science"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""No"", ""specialisation"": ""Mkt&HR"", ""ssc_p"": 83.11, ""hsc_p"": 82.3, ""degree_p"": 55.59, ""etest_p"": 50.7, ""mba_p"": 65.29}",1,0.9615869512821256,0.5,LogisticRegression
+2025-09-21T00:22:40,random,"{""gender"": ""M"", ""ssc_b"": ""Central"", ""hsc_b"": ""Central"", ""hsc_s"": ""Arts"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""Yes"", ""specialisation"": ""Mkt&HR"", ""ssc_p"": 72.84, ""hsc_p"": 49.39, ""degree_p"": 70.12, ""etest_p"": 87.39, ""mba_p"": 69.79}",1,0.9009525740556292,0.5,LogisticRegression
+2025-09-21T00:22:44,random,"{""gender"": ""F"", ""ssc_b"": ""Central"", ""hsc_b"": ""Central"", ""hsc_s"": ""Arts"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""Yes"", ""specialisation"": ""Mkt&Fin"", ""ssc_p"": 41.52, ""hsc_p"": 56.89, ""degree_p"": 89.11, ""etest_p"": 85.97, ""mba_p"": 60.67}",1,0.7359539134666578,0.5,LogisticRegression
+2025-09-21T00:22:47,random,"{""gender"": ""M"", ""ssc_b"": ""Others"", ""hsc_b"": ""Central"", ""hsc_s"": ""Arts"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""Yes"", ""specialisation"": ""Mkt&HR"", ""ssc_p"": 57.5, ""hsc_p"": 44.54, ""degree_p"": 50.0, ""etest_p"": 61.79, ""mba_p"": 68.21}",0,0.0442945521062335,0.5,LogisticRegression
+2025-09-21T00:22:50,random,"{""gender"": ""F"", ""ssc_b"": ""Central"", ""hsc_b"": ""Others"", ""hsc_s"": ""Commerce"", ""degree_t"": ""Others"", ""workex"": ""No"", ""specialisation"": ""Mkt&Fin"", ""ssc_p"": 76.57, ""hsc_p"": 44.54, ""degree_p"": 75.56, ""etest_p"": 66.84, ""mba_p"": 58.23}",1,0.865785398364495,0.5,LogisticRegression
+2025-09-21T00:24:13,random,"{""gender"": ""M"", ""ssc_b"": ""Central"", ""hsc_b"": ""Central"", ""hsc_s"": ""Commerce"", ""degree_t"": ""Others"", ""workex"": ""Yes"", ""specialisation"": ""Mkt&Fin"", ""ssc_p"": 72.81, ""hsc_p"": 97.01, ""degree_p"": 65.41, ""etest_p"": 93.62, ""mba_p"": 73.45}",1,0.9837867489401536,0.5,LogisticRegression
+2025-09-21T00:24:33,from_test_idx,"{""index"": 117}",1,0.979996661225134,0.5,LogisticRegression
+2025-09-21T00:24:42,manual,"{""gender"": ""F"", ""ssc_b"": ""Central"", ""hsc_b"": ""Central"", ""hsc_s"": ""Arts"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""No"", ""specialisation"": ""Mkt&Fin"", ""ssc_p"": 40.89, ""hsc_p"": 37.0, ""degree_p"": 50.0, ""etest_p"": 50.0, ""mba_p"": 51.21}",0,0.0019086357341451,0.5,LogisticRegression
+2025-09-21T22:23:09,from_test_idx,"{""index"": 63}",1,0.7493763126098354,0.5,LogisticRegression
+2025-09-21T22:23:13,from_test_idx,"{""index"": 60}",1,0.999012517139856,0.5,LogisticRegression
+2025-09-21T22:23:17,from_test_idx,"{""index"": 132}",1,0.9887727391930212,0.5,LogisticRegression
+2025-09-21T22:23:20,from_test_idx,"{""index"": 16}",1,0.9203815412818844,0.5,LogisticRegression
+2025-09-21T22:23:23,from_test_idx,"{""index"": 76}",1,0.9324868092864376,0.5,LogisticRegression
+2025-09-21T22:23:48,from_test_idx,"{""index"": 75}",0,0.3858254432636695,0.5,LogisticRegression
+2025-09-21T22:24:01,from_test_idx,"{""index"": 16}",1,0.9203815412818844,0.5,LogisticRegression
+2025-09-21T22:24:06,from_test_idx,"{""index"": 76}",1,0.9324868092864376,0.5,LogisticRegression
+2025-09-21T22:24:10,from_test_idx,"{""index"": 211}",1,0.7755933840093081,0.5,LogisticRegression
+2025-09-21T22:24:13,from_test_idx,"{""index"": 117}",1,0.979996661225134,0.5,LogisticRegression
+2025-09-21T22:24:16,from_test_idx,"{""index"": 185}",1,0.9886465151488608,0.5,LogisticRegression
+2025-09-21T22:24:21,from_test_idx,"{""index"": 63}",1,0.7493763126098354,0.5,LogisticRegression
+2025-09-21T22:24:28,from_test_idx,"{""index"": 11}",1,0.995860218470879,0.5,LogisticRegression
+2025-09-21T22:24:38,from_test_idx,"{""index"": 70}",1,0.8882929112208157,0.5,LogisticRegression
+2025-09-21T22:24:43,from_test_idx,"{""index"": 186}",0,0.0537487878850419,0.5,LogisticRegression
+2025-09-21T22:24:47,from_test_idx,"{""index"": 0}",1,0.9035848131029748,0.5,LogisticRegression
+2025-09-21T22:24:54,from_test_idx,"{""index"": 75}",0,0.3858254432636695,0.5,LogisticRegression
+2025-09-21T22:24:57,from_test_idx,"{""index"": 60}",1,0.999012517139856,0.5,LogisticRegression
+2025-09-21T22:25:00,from_test_idx,"{""index"": 16}",1,0.9203815412818844,0.5,LogisticRegression
+2025-09-21T22:25:04,from_test_idx,"{""index"": 76}",1,0.9324868092864376,0.5,LogisticRegression
+2025-09-21T22:25:08,random,"{""gender"": ""M"", ""ssc_b"": ""Others"", ""hsc_b"": ""Others"", ""hsc_s"": ""Arts"", ""degree_t"": ""Others"", ""workex"": ""No"", ""specialisation"": ""Mkt&Fin"", ""ssc_p"": 56.49, ""hsc_p"": 48.9, ""degree_p"": 52.57, ""etest_p"": 81.65, ""mba_p"": 66.37}",0,0.0143160298960459,0.5,LogisticRegression
+2025-09-21T22:25:26,from_test_idx,"{""index"": 76}",1,0.9324868092864376,0.35,LogisticRegression
+2025-09-21T22:25:30,from_test_idx,"{""index"": 190}",1,0.559760014153884,0.35,LogisticRegression
+2025-09-21T22:25:43,from_test_idx,"{""index"": 117}",1,0.979996661225134,0.5,LogisticRegression
+2025-09-21T22:28:32,random,"{""gender"": ""M"", ""ssc_b"": ""Others"", ""hsc_b"": ""Others"", ""hsc_s"": ""Science"", ""degree_t"": ""Comm&Mgmt"", ""workex"": ""Yes"", ""specialisation"": ""Mkt&HR"", ""ssc_p"": 72.18, ""hsc_p"": 82.74, ""degree_p"": 60.26, ""etest_p"": 86.24, ""mba_p"": 62.12}",1,0.9936058784517984,0.5,LogisticRegression
+2025-09-21T22:28:37,from_test_idx,"{""index"": 63}",1,0.7493763126098354,0.5,LogisticRegression
+2025-09-21T22:28:41,from_test_idx,"{""index"": 60}",1,0.999012517139856,0.5,LogisticRegression
+2025-09-21T22:28:44,from_test_idx,"{""index"": 132}",1,0.9887727391930212,0.5,LogisticRegression
+2025-09-21T22:28:48,from_test_idx,"{""index"": 16}",1,0.9203815412818844,0.5,LogisticRegression
+2025-09-21T22:28:52,from_test_idx,"{""index"": 190}",1,0.559760014153884,0.5,LogisticRegression
+2025-09-21T22:29:01,from_test_idx,"{""index"": 76}",1,0.9324868092864376,0.5,LogisticRegression
+2025-09-21T22:29:05,from_test_idx,"{""index"": 35}",1,0.9285815676361324,0.5,LogisticRegression
+2025-09-21T22:29:10,from_test_idx,"{""index"": 42}",0,0.08523381142830387,0.5,LogisticRegression
