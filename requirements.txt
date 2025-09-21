@@ -1,8 +1,9 @@
-streamlit
-numpy
-sympy
-pandas
-matplotlib
 
+scikit-learn
+joblib
+streamlit>=1.36
+pandas
+numpy
+matplotlib
 scikit-learn
 joblib
