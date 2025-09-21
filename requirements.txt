@@ -2,12 +2,9 @@
 
 
 streamlit>=1.36
-pandas
+
 
 matplotlib
-
-
-
 
 sklearn==1.6.0 
 pandas==2.2.2 
