@@ -4,3 +4,5 @@ sympy
 pandas
 matplotlib
 
+scikit-learn
+joblib
