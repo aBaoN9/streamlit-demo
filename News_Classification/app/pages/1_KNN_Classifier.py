@@ -8,7 +8,7 @@ from src.paths import data_path
 from src.history import append_history
 
 st.set_page_config(page_title="KNN Classifier", layout="wide")
-st.title("📌 KNN News Classifier — có giải thích")
+st.title("📌 KNN News Classifier")
 
 text_input = st.text_area("Nhập nội dung tin tức:", height=200, placeholder="Paste a short news paragraph in English...")
 k = st.slider("Số láng giềng (k):", 3, 15, 7, step=2)
@@ -48,3 +48,4 @@ if st.button("Phân loại"):
         })
     else:
         st.warning("Bạn cần nhập nội dung.")
+
