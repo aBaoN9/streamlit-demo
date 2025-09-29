@@ -7,7 +7,7 @@ from src.search import explain_search
 from src.history import append_history
 
 st.set_page_config(page_title="VSM Search", layout="wide")
-st.title("🔍 VSM Search — có giải thích")
+st.title("🔍 VSM Search")
 
 query = st.text_input("Nhập truy vấn (tiếng Anh):", placeholder="e.g., election results and budget policy")
 top_k = st.slider("Số kết quả:", 3, 10, 5)
@@ -39,3 +39,4 @@ if st.button("Tìm kiếm"):
         })
     else:
         st.warning("Bạn cần nhập query trước.")
+
