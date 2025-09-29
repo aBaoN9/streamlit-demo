@@ -1,0 +1,83 @@
+{
+  "election campaign and voting system": [
+    {
+      "sim": 0.15014169341235095,
+      "label": 0,
+      "snippet": "Labour's four little words\n \n Labour has unveiled the four little words that will form the heart of its general election campaign which, for those just returned from the planet Gal"
+    },
+    {
+      "sim": 0.13968801276295517,
+      "label": 0,
+      "snippet": "Teenagers to be allowed to be MPs\n \n Teenagers will be able to become MPs under plans unveiled by ministers.\n \n In a written statement, Constitutional Affairs Minister Christopher "
+    },
+    {
+      "sim": 0.13735219918599895,
+      "label": 0,
+      "snippet": "No election TV debate, says Blair\n \n Tony Blair has said he will not take part in a TV debate with his political rivals ahead of the next election.\n \n \"We answer this every electio"
+    },
+    {
+      "sim": 0.13511096921259602,
+      "label": 0,
+      "snippet": "Campbell returns to election team\n \n Ex-Downing Street media chief Alastair Campbell will return to the fold to strengthen Labour's general election campaign, the party has confirm"
+    },
+    {
+      "sim": 0.13298620724596455,
+      "label": 0,
+      "snippet": "Labour MP praises Tory campaign\n \n The Conservatives have been \"a lot smarter\" in the way they have conducted the general election campaign, a Labour backbencher has said.\n \n Derek"
+    }
+  ],
+  "sports match results and player transfer": [
+    {
+      "sim": 0.10382254813506242,
+      "label": 1,
+      "snippet": "Rovers reject third Ferguson bid\n \n Blackburn have rejected a third bid from Rangers for Scotland captain Barry Ferguson, BBC Sport has learnt.\n \n It is thought Blackburn want Â£6m"
+    },
+    {
+      "sim": 0.10135688070888871,
+      "label": 2,
+      "snippet": "Piero gives rugby perspective\n \n BBC Sport unveils its new analysis tool Piero at the Wales v England rugby union match on Saturday. But what does it do and how does it work?\n \n Pi"
+    },
+    {
+      "sim": 0.1008524377985548,
+      "label": 0,
+      "snippet": "Tories pledge free sports lessons\n \n Children would be offered two hours' free sports training a week by a future Tory government, the party has said.\n \n The Club2School policy wou"
+    },
+    {
+      "sim": 0.08459328317978843,
+      "label": 1,
+      "snippet": "Veteran Martinez wins Thai title\n \n Conchita Martinez won her first title in almost five years with victory over Anna-Lena Groenefeld at the Volvo Women's Open in Pattaya, Thailand"
+    },
+    {
+      "sim": 0.08363274780206464,
+      "label": 1,
+      "snippet": "Munster Cup tie switched to Spain\n \n Munster's Heineken Cup quarter-final tie against Biarritz on 3 April has been switched to Real Sociedad's Paseo de Anoeta stadium in San Sebast"
+    }
+  ],
+  "technology companies and product launches": [
+    {
+      "sim": 0.13109092196067784,
+      "label": 2,
+      "snippet": "Apple sues to stop product leaks\n \n Computer firm Apple has issued a lawsuit to prevent online leaks of information about future products.\n \n The lawsuit, against an unidentified i"
+    },
+    {
+      "sim": 0.11223155372082905,
+      "label": 4,
+      "snippet": "Profits slide at India's Dr Reddy\n \n Profits at Indian drugmaker Dr Reddy's fell 93% as research costs rose and sales flagged.\n \n The firm said its profits were 40m rupees ($915,00"
+    },
+    {
+      "sim": 0.06335500816777617,
+      "label": 4,
+      "snippet": "Google shares fall as staff sell\n \n Shares in Google have fallen 6.7% after employees and early investors in the web search took advantage of the first chance to sell their holding"
+    },
+    {
+      "sim": 0.0598579479239828,
+      "label": 4,
+      "snippet": "Electronics firms eye plasma deal\n \n Consumer electronics giants Hitachi and Matshushita Electric are joining forces to share and develop technology for flat screen televisions.\n \n"
+    },
+    {
+      "sim": 0.05759806548904012,
+      "label": 2,
+      "snippet": "Google launches TV search service\n \n The net search giant Google has launched a search service that lets people look for TV programmes.\n \n The service, Google Video beta, searches "
+    }
+  ]
+}

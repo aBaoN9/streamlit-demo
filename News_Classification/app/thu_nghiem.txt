@@ -1,0 +1,68 @@
+Label 0 → Politics / Election
+Các văn bản có từ khóa election, campaign, prime minister, budget policy, government reforms.
+
+
+
+Label 1 → Business / Economy
+Xuất hiện nhiều từ company, profit, market, deal, economic growth.
+
+
+
+Label 2 → Technology
+Có cụm từ software, internet, company launches, mobile, product.
+
+
+
+Label 3 → Entertainment / Culture
+Văn bản về music, film, theatre, shows, artists.
+
+
+
+Label 4 → Sports
+Nhắc đến football, match, win, player, transfer, tournament.
+
+
+
+
+
+CHO K_NN
+
+Bầu cử: 
+The Prime Minister announced a new national budget focusing on tax cuts ahead of the election. Opposition parties criticized the plan as a political move.
+
+
+
+Quốc phòng: 
+Army chiefs confirmed a major reorganization of regiments to improve operational efficiency. Veterans, however, expressed concern about the loss of tradition.
+
+
+
+Chính sách xã hội: 
+The government unveiled a new policy on identity cards, aiming to strengthen security but raising privacy concerns among civil rights groups.
+
+
+
+Kinh tế – ngân sách: 
+Chancellor Brown revealed that the new budget will prioritize public spending on health and education, while also introducing measures to reduce national debt.
+
+
+
+
+CHO VSM
+
+election results and government budget policy
+army regiments and defense reforms
+identity cards and privacy concerns
+economic growth and public spending plans
+
+
+✅ Kỳ vọng khi test
+
+KNN Classifier:
+Mỗi đoạn sẽ được gán nhãn đúng chủ đề (ví dụ election → label 0, army → label khác).
+Giải thích sẽ cho thấy từ khóa TF-IDF nổi bật như “election”, “budget”, “army”, “identity cards”.
+Bảng neighbors sẽ có nhiều từ/cụm trùng trong overlap_terms.
+
+VSM Search:
+Kết quả top-k sẽ toàn là văn bản chứa từ khóa của query.
+Overlap terms hiển thị những từ chung (vd: “election”, “budget”, “army”).

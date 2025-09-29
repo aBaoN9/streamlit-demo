@@ -1,0 +1,148 @@
+[
+  {
+    "type": "vsm",
+    "query": "internet, mobile",
+    "k": 3,
+    "top_terms": [
+      "mobile",
+      "internet"
+    ],
+    "ts": "2025-09-29 00:49:32"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 3,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:47:20"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 10,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:47:12"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 6,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:47:07"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 6,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:46:58"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 6,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:46:53"
+  },
+  {
+    "type": "vsm",
+    "query": "player",
+    "k": 5,
+    "top_terms": [
+      "player"
+    ],
+    "ts": "2025-09-29 00:46:48"
+  },
+  {
+    "type": "vsm",
+    "query": "software",
+    "k": 5,
+    "top_terms": [
+      "software"
+    ],
+    "ts": "2025-09-29 00:46:34"
+  },
+  {
+    "type": "vsm",
+    "query": "music",
+    "k": 5,
+    "top_terms": [
+      "music"
+    ],
+    "ts": "2025-09-29 00:46:20"
+  },
+  {
+    "type": "vsm",
+    "query": "football",
+    "k": 5,
+    "top_terms": [
+      "football"
+    ],
+    "ts": "2025-09-29 00:46:05"
+  },
+  {
+    "type": "vsm",
+    "query": "profit",
+    "k": 5,
+    "top_terms": [
+      "profit"
+    ],
+    "ts": "2025-09-29 00:45:52"
+  },
+  {
+    "type": "knn",
+    "input": "Army chiefs confirmed a major reorganization of regiments to improve operational efficiency. Veterans, however, expressed concern about the loss of tradition.\n",
+    "k": 7,
+    "pred": 0,
+    "votes": {
+      "0": 4,
+      "3": 1,
+      "4": 2
+    },
+    "ts": "2025-09-29 00:38:41"
+  },
+  {
+    "type": "knn",
+    "input": "The government unveiled a new policy on identity cards, aiming to strengthen security but raising privacy concerns among civil rights groups.\n",
+    "k": 7,
+    "pred": 0,
+    "votes": {
+      "0": 6,
+      "4": 1
+    },
+    "ts": "2025-09-29 00:38:09"
+  },
+  {
+    "type": "vsm",
+    "query": "army regiments and defense reforms",
+    "k": 5,
+    "top_terms": [
+      "defense",
+      "regiments",
+      "army",
+      "reforms"
+    ],
+    "ts": "2025-09-29 00:36:50"
+  },
+  {
+    "type": "knn",
+    "input": "The Prime Minister announced a new national budget focusing on tax cuts ahead of the election. Opposition parties criticized the plan as a political move.\n\n\n",
+    "k": 7,
+    "pred": 0,
+    "votes": {
+      "0": 6,
+      "4": 1
+    },
+    "ts": "2025-09-29 00:36:07"
+  }
+]
