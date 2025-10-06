@@ -7,3 +7,4 @@ joblib==1.5.2
 scikit-learn==1.7.2
 plotly
 googletrans==4.0.0-rc1
+deep-translator
