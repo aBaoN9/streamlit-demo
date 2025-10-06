@@ -1,0 +1,44 @@
+IMDB_ML_Demo/
+├─ data/
+│  ├─ raw/                 # chứa dữ liệu gốc (KHÔNG sửa)
+│  │   └─ IMBD.csv
+│  ├─ interim/             # dữ liệu sau bước làm sạch nhẹ (cache)
+│  └─ processed/           # dữ liệu đã tách train/test nếu cần
+│
+├─ models/
+│  ├─ decision_tree_rating_regressor.pkl
+│  └─ naive_bayes_genre_from_description.pkl
+│
+├─ notebooks/
+│  ├─ 00_explore_data.ipynb        # EDA: kiểm tra cột, nulls, phân phối
+│  ├─ 01_train_decision_tree.ipynb # huấn luyện + đánh giá DT (rating)
+│  └─ 02_train_naive_bayes.ipynb   # huấn luyện + đánh giá NB (genre)
+│
+├─ src/
+│  ├─ __init__.py
+│  ├─ config.py             # đường dẫn, tên cột, tham số model
+│  ├─ features.py           # parse_year, parse_duration, text cleaning...
+│  ├─ data_utils.py         # load_csv, save_pickle, split train/test
+│  ├─ train_tree.py         # train Decision Tree (rating)
+│  ├─ train_nb.py           # train Naive Bayes (description -> genre)
+│  ├─ predict_tree.py       # hàm predict cho web (rating)
+│  ├─ predict_nb.py         # hàm predict cho web (genre)
+│  └─ viz.py                # biểu đồ EDA (rating vs year, votes, …)
+│
+├─ app/
+│  ├─ main.py               # Streamlit: sidebar + router tabs
+│  ├─ pages/
+│  │   ├─ 1_Decision_Tree.py   # tab dự đoán rating
+│  │   ├─ 2_Naive_Bayes.py     # tab dự đoán genre từ description
+│  │   └─ 3_Data_Insights.py   # (tuỳ chọn) EDA & biểu đồ
+│  └─ assets/
+│      ├─ style.css
+│      └─ logo.png           # (tuỳ chọn)
+│
+├─ tests/
+│  ├─ test_features.py      # test unit cho hàm parse/clean
+│  └─ test_pipelines.py     # test load model + predict 1 sample
+│
+├─ requirements.txt
+├─ .gitignore
+└─ README.md

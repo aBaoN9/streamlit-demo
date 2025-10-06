@@ -1,0 +1,74 @@
+🟢 Tab 1: 🎬 Dự đoán Rating (Decision Tree)
+🧩 Chức năng
+
+Cho phép người dùng nhập thủ công thông tin mô tả của một bộ phim:
+
+    year_num – năm sản xuất
+
+    duration_min – thời lượng phim (phút)
+
+    votes_num – số lượt bình chọn
+
+    stars_count – số diễn viên chính
+
+    desc_len – độ dài mô tả (số từ)
+
+    certificate – phân loại độ tuổi (PG, R, TV-MA,…)
+
+    genre_primary – thể loại chính
+
+Khi nhấn nút “Dự đoán”, mô hình Decision Tree Regressor (đã huấn luyện từ dữ liệu IMBD) sẽ trả về điểm rating ước tính (từ 0–10).
+
+⚙️ Cơ chế
+
+Các đặc trưng đầu vào được mã hoá:
+
+    Cột số → giữ nguyên hoặc impute giá trị trung vị.
+
+    Cột phân loại → One-Hot Encoding.
+
+Mô hình Decision Tree Regr. (max_depth = 6).
+
+Kết quả được dự đoán bằng pipeline đã lưu (models/decision_tree_rating_regressor.pkl).
+
+🧠 Ví dụ kết quả
+
+Đầu vào: phim hành động 2022, 120 phút, 150 000 votes → rating ≈ 8.2
+
+📊 Ý nghĩa
+
+Tab này minh họa cho bài toán hồi quy trong học có giám sát — dự đoán giá trị liên tục từ nhiều biến đặc trưng.
+
+
+
+
+
+
+🟣 Tab 2: 🎭 Phân loại Thể loại phim (Naive Bayes)
+🧩 Chức năng
+
+Người dùng nhập vào một đoạn mô tả nội dung phim (description).
+
+Khi nhấn “Phân loại”, mô hình Naive Bayes văn bản sẽ dự đoán thể loại phim chính (Action, Drama, Comedy, …).
+
+⚙️ Cơ chế
+
+Tiền xử lý:
+
+    Lấy trường genre_primary (thể loại đầu tiên) làm nhãn huấn luyện.
+
+    Chỉ giữ các thể loại có ≥ 5 mẫu để cân bằng dữ liệu.
+
+Dữ liệu mô tả được vector hoá bằng TF-IDF (1–2 gram, 30 000 features).
+
+Mô hình: Multinomial Naive Bayes, đánh giá bằng Accuracy & F1.
+
+Kết quả dự đoán hiển thị ngay dưới khung nhập.
+
+🧠 Ví dụ
+
+“A retired hitman embarks on a high-octane revenge mission…” → Action
+
+📊 Ý nghĩa
+
+Tab này minh họa cho bài toán phân loại văn bản – học có giám sát, với đầu vào là chuỗi từ và đầu ra là nhãn rời rạc.
