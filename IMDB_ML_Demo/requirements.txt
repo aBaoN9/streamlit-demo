@@ -1,12 +1,37 @@
+# ==========================================
+#  IMDB_ML_Demo - Full Requirements
+#  (Decision Tree + Naive Bayes + Streamlit)
+# ==========================================
+
+# --- Core data handling ---
 pandas
 numpy
+
+# --- Machine Learning core ---
 scikit-learn
 joblib
+
+# --- Visualization (matplotlib for tree, plotly for probabilities) ---
 matplotlib
 plotly
+
+# --- Web framework ---
 streamlit
+
+# --- Translation (auto language detect & English translation) ---
 googletrans==4.0.0-rc1
-cgi
+# (optional backup if googletrans fails)
+# deep-translator
 
+# --- Optional tools for development / testing / notebook ---
+pytest           # for testing scripts
+jupyter          # if you use notebooks locally
+notebook
+seaborn          # for EDA plots (optional)
 
-
+# --- Utility dependencies (auto-installed with others, but list for stability) ---
+typing-extensions
+tornado
+urllib3
+watchdog
+toml
