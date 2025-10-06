@@ -8,7 +8,8 @@ pandas
 numpy
 
 # --- Machine Learning core ---
-scikit-learn
+# ...
+scikit-learn==1.6.0
 joblib
 
 # --- Visualization (matplotlib for tree, plotly for probabilities) ---
@@ -35,3 +36,4 @@ tornado
 urllib3
 watchdog
 toml
+
